@@ -13,9 +13,10 @@ The package contains 2 functions:
 dijkstra and euclidean
 }
 \author{
-\packageAuthor{elucideanDistanceToNode}
+\packageAuthor{Nisal Amasha Rajapaksha and Uday Jain}
 
-Maintainer: \packageMaintainer{elucideanDistanceToNode}
+Maintainer: \packageMaintainer{Nisal Amashan Rajapaksha <nisalamashan@gmail.com>;
+Uday Jain <uday9k@gmail.com>}
 }
 \references{
 https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
@@ -28,7 +29,6 @@ https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 %\section{Documentation Index}{\packageIndices{elucideanDistanceToNode}}
 
 \seealso{
-https://rpubs.com/yogesh665/DJA
 }
 \examples{
 wiki_graph <-data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
