@@ -1,9 +1,11 @@
 Package: elucideanDistanceToNode
 Type: Package
-Title: What the Package Does (Short Line)
+Title: Dijkstra's Algorithm and Euclidean Distance Calculation
 Version: 1.0
 Date: 2024-09-26
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line).
-License: What license is it under?
+Author: Nisal Amasha Rajapaksha and Uday Jain
+Maintainer: Nisal Amashan Rajapaksha <nisalamashan@gmail.com>
+Description: This package provides a function to find shortest path between 2 points using Dijkstra's shortest path algorithm, and a function to 
+ 	     find the greatest common divisor using Eculidean's algorithm. This package is useful for performing these calculations with minimal 
+             system resource consumption.
+License: MIT
