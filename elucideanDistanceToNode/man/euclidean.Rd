@@ -1,73 +1,49 @@
 \name{euclidean}
 \alias{euclidean}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-A Capitalized Title (ideally limited to 65 characters)
+Euclidean Algorithm for GCD Calculation
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+This function calculates the greatest common divisor (GCD) of two numeric values using Euclidean's algorithm.
 }
 \usage{
 euclidean(a, b)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{a}{
-%%     ~~Describe \code{a} here~~
+A numeric scalar representing the first number.
 }
   \item{b}{
-%%     ~~Describe \code{b} here~~
+A numeric scalar representing the second number.
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
+The Euclidean algorithm calculates the greatest common divisor of two given numbers by continuously replacing the larger number with its remainder when divided by the smaller number until the remainder equals zero. The last non-zero remainder is the greatest common divisor.
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+The function returns a single numeric value which is the greatest common divisor of \code{a} and \code{b}.
 }
 \references{
-%% ~put references to the literature/web site here ~
+https://en.wikipedia.org/wiki/Euclidean_algorithm
 }
 \author{
-%%  ~~who you are~~
+Nisal Amashan Rajapaksha
 }
 \note{
-%%  ~~further notes~~
+This exercise is done as a part of coursework for 732A94.
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+%% Can add references to similar functions if needed, or leave blank
 }
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or standard data sets, see data().
 
-## The function is currently defined as
-function (a, b) 
-{
-    stopifnot(is.numeric(a) & is.numeric(b) & length(a) == 1 & 
-        length(b) == 1)
-    while (b != 0) {
-        temp <- b
-        b <- a\%\%b
-        a <- temp
-    }
-    return(a)
-  }
+\examples{
+## Example of usage:
+euclidean(56, 98)  # Returns 14
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.
+
+\keyword{math}
+\keyword{GCD}
+\keyword{algorithms}
+\concept{Euclidean algorithm}
+\concept{greatest common divisor}
