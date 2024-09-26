@@ -1,0 +1,2 @@
+export("a", "allNodes", "cumDistance", "dijkstra", "distanceMatrix", "distances", "graph", "init_node", "minDist", "minDistNode", "unVisitedNodes",
+       "wiki_graph")
