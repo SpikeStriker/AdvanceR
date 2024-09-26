@@ -34,9 +34,9 @@ function(graph,init_node){
     
     distances$w<-distances$w+cumDistance
     if (length(distances$w)>1){
-    a<-distanceMatrix[as.character(distances$v2),]>distances$w
-    a<-names(a[a==TRUE])
-    distanceMatrix[a,]<-distances[distances$v2==a,"w"]
+      a<-distanceMatrix[as.character(distances$v2),]>distances$w
+      a<-names(a[a==TRUE])
+      distanceMatrix[a,]<-distances[distances$v2==a,"w"]
     }else if((length(distances$w)==1)&(distanceMatrix[as.character(distances$v2),]>distances$w)){
       a<-as.character(distances$v2)
       distanceMatrix[a,]<-distances[distances$v2==a,"w"]
