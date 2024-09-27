@@ -1,12 +1,8 @@
 \name{dijkstra}
 \alias{dijkstra}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-Dijkstra's algorithm
-}
-\description{
-Function calculating distance based on Dijkstra's algorithm
-}
+\title{Dijkstra's algorithm}
+\description{Function calculating distance based on Dijkstra's algorithm}
 \usage{
 dijkstra(graph, init_node)
 }
@@ -47,7 +43,7 @@ https://rpubs.com/yogesh665/DJA
 wiki_graph <-data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
                         v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
                         w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9));
-
+library(elucideanDistanceToNode)
 dijkstra(wiki_graph, 3);
 dijkstra(wiki_graph, 1);
 
@@ -111,14 +107,5 @@ function (graph, init_node)
     return(as.vector(distanceMatrix))
   }
 }
-\keyword{ ~dijkstra }
-
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory (show via RShowDoc("KEYWORDS")):
-% \keyword{ ~kwd1 }
-% \keyword{ ~kwd2 }
-% Use only one keyword per line.
-% For non-standard keywords, use \concept instead of \keyword:
-% \concept{ ~cpt1 }
-% \concept{ ~cpt2 }
-% Use only one concept per line.
+\keyword{ ~ dijkstra }
+\concept{ ~ dijkstra's algorithm }
