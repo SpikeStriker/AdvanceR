@@ -1,11 +1,8 @@
 \name{dijkstra}
 \alias{dijkstra}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Dijkstra's algorithm}
 \description{Function calculating distance based on Dijkstra's algorithm}
-\usage{
-dijkstra(graph, init_node)
-}
+\usage{dijkstra(graph, init_node)}
 \arguments{
   \item{graph}{
 Graph takes a dataframe object with 3 columns: v1,v2,w;
@@ -15,29 +12,21 @@ w:  numeric column that contains distance between nodes from and to
 }
   \item{init_node}{
 init_node is a numeric scalar value that represents the starting node to be used 
-when calculating all distances
-}
+when calculating all distances}
 }
 \details{
 Dijkstra's algorithm finds the shortest path from a given source node to every 
-other node and has a time complexity of O(V)^2 where V is the number of nodes.
-}
+other node and has a time complexity of O(V)^2 where V is the number of nodes.}
 \value{
 The function returns a vector with shortest distances to all nodes starting 
-from the init_node.
-}
+from the init_node.}
+\author{Uday Jain}
+\note{This exercise is done as a part of coursework for 732A94}
 \references{
-https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+\href{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}{Dijkstra's Algorithm}
 }
-\author{
-Uday Jain
-}
-\note{
-This exercise is done as a part of coursework for 732A94}
-
-
 \seealso{
-https://rpubs.com/yogesh665/DJA
+\href{https://rpubs.com/yogesh665/DJA}{DJA}
 }
 \examples{
 wiki_graph <-data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),

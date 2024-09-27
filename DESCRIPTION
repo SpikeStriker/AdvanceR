@@ -11,3 +11,6 @@ Description: This package provides a function to find shortest path between 2 po
 License: MIT + file LICENSE
 RoxygenNote: 7.3.2
 Encoding: UTF-8
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

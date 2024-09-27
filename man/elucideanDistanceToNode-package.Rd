@@ -18,7 +18,7 @@ dijkstra and euclidean
 Maintainer: \packageMaintainer{elucideanDistanceToNode}
 }
 \references{
-https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+\href{https://en.wikipedia.org/wiki/Dijkstra's_algorithm}{Dijkstra's Algorithm}
 }
 \keyword{ ~dijkstra }
 \keyword{ ~euclidean }
@@ -28,7 +28,7 @@ https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 %\section{Documentation Index}{\packageIndices{elucideanDistanceToNode}}
 
 \seealso{
-https://rpubs.com/yogesh665/DJA
+\href{https://rpubs.com/yogesh665/DJA}{DJA}
 }
 \examples{
 wiki_graph <-data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
