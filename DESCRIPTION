@@ -6,6 +6,8 @@ Date: 2024-09-26
 Author: Nisal Amasha Rajapaksha and Uday Jain
 Maintainer: Nisal Amashan Rajapaksha <nisalamashan@gmail.com>
 Description: This package provides a function to find shortest path between 2 points using Dijkstra's shortest path algorithm, and a function to 
- 	     find the greatest common divisor using Eculidean's algorithm. This package is useful for performing these calculations with minimal 
-             system resource consumption.
+            find the greatest common divisor using Eculidean's algorithm. This package is useful for performing these calculations with minimal 
+            system resource consumption.
 License: MIT + file LICENSE
+RoxygenNote: 7.3.2
+Encoding: UTF-8

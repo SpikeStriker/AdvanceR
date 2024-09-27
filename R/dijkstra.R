@@ -1,3 +1,5 @@
+#' @export
+#'
 dijkstra <-
 function(graph,init_node){
   allNodes<-unique(graph$v1)
