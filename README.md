@@ -1,57 +1,29 @@
 # AdvanceR
 
-Detailed repository summary generated automatically from available manifests and READMEs. Please review and refine where needed.
+An R package for graph and distance algorithms including Dijkstra and Euclidean distance utilities, with package documentation and tests.
 
-## Short summary
+## Repository structure
 
-# AdvanceR
+Top-level folders in this repository:
 
-## Repository Summary
-R package or R Shiny application repository focused on statistical modelling and API integration
-with full package structure. Contains top-level folders: .github, R, man, tests. Captures dependency
-and environment requirements for reproducibility. Existing README or documentation is present; this
-update improves the project summary and structure description.
-
-## Key Contents
-### Directories
-- `.github`
 - `R`
 - `man`
 - `tests`
 
-### Files
-- `.gitignore`
-- `DESCRIPTION`
-- `LICENSE`
-- `LICENSE.md`
+## What is included
 
-## Languages and ecosystem
+### Core functionality
 
-- R
+- Graph search, Euclidean distance computations, and wiki graph utilities.
 
-## Models and algorithms
+### Package structure
 
-- Algorithmic implementations (knapsack, Dijkstra)
+- Standard R package metadata, documentation, and unit tests.
 
+## How to use this repo
 
-## Files observed in repository root
-
-- R
-- tests
-- NAMESPACE
-- man
-- README.Rmd
-- DESCRIPTION
-- README.md
-
-
-## Problem statements addressed
-
-- Describe the key problems this repo solves (e.g., reproducible experiments, teaching labs, algorithm implementations).
-
-
+Browse the top-level folders to explore course-specific assignments, notebooks, reports, and datasets.
 
 ## How to contribute
 
-- Open issues for bugs or feature requests.
-- Create PRs against `main` with a clear description.
+If this repository is collaborative, open issues for corrections or improvements and create pull requests with clear descriptions.
